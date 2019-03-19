@@ -5,7 +5,7 @@
    
 	require_once('dbConnect.php');
 	
-	// Check connection
+	 // Check connection
 		if($con === false){
 			die("ERROR: Could not connect. " . mysqli_connect_error());
 		}

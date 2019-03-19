@@ -1,9 +1,9 @@
 <?php
 	if($_SERVER['REQUEST_METHOD']=='POST') {
-		//Check if the shop id was provided
+		//Check if the username was provided
 		if (isset($_POST['username'])) {
 			
-		   //Connect to the database
+		   // Connect to the database
 		    require_once('dbConnect.php');
 			
 			// Check connection
